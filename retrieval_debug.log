@@ -1,0 +1,80 @@
+--- New query ---
+query: What is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.6663154363632202 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_202 score=0.8045044541358948 len=272
+'As demonstrated by the e-commerce \nexample, LLMs can initiate actions by interacting with APIs. \nLLMs can also establish connections with other programming \nresources, such as a Python interpreter, which allows them to \nincorporate precise calculations into their outputs.'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.8687114119529724 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+
+--- New query ---
+query: what is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.9402686224067317 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.7237098185499267 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.5888931375580448 len=432
+'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
+
+--- New query ---
+query: are you stupid?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_9 score=0.7189412335812109 len=304
+'Any dissemination, distribution, or unauthorized use is strictly prohibited.\nTable of Contents\nINTRODUCTION ...............................................................................................1\nAbout This Book ...................................................................................'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_21 score=0.5717073429671871 len=403
+'34\nCHAPTER 5:  Reviewing Security and Ethical  \nConsiderations .............................................................................37\nReiterating the Importance of Security and Governance ..............38\nCentralizing Data Governance ..........................................................39\nAlleviating Biases ................................................................................'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_22 score=0.5679694424439677 len=174
+'40\nAcknowledging Open-Source Risks ..................................................40\nContending with Hallucinations .......................................................'
+
+--- New query ---
+query: sorry i was testing whether you can handle hateful comments
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_230 score=0.7274161313750367 len=254
+'This includes setting \nboundaries and restrictions on the use of LLMs to avoid the \nspread of misinformation, hate speech, or other forms of harmful \ncontent.\n• Societal impact: LLMs have the potential to influence public \n discourse and shape attitudes.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_149 score=0.3139349604035938 len=442
+'RLHF \ncan also help you minimize the risk of harmful content by train -\ning the model to avoid toxic language or to avoid sensitive topics.\nTuning models to learn individual preferences opens the door to \nexciting new applications of gen AI technology. For example, in \nthe business world, you can create personalized assistants. In the \nfield of education, you can develop tailored learning plans that \nmeet the unique needs of each student.'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_100 score=0.3073561477660336 len=257
+'Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIt all springs from the advent of the transformer architecture \n(introduced in Chapter\xa01), which presented a new and simpler way \nto understand language using attention mechanisms.'
+
+--- New query ---
+query: What is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.9402686224067317 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.7237098185499267 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.5888931375580448 len=432
+'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
+
+--- New query ---
+query: sorry i was testing something 
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_19 score=0.7007994076709657 len=480
+'30\nContext retrieval ...........................................................................31\nProcessing for Inference.................................................................... 31\nReducing latency ...........................................................................32\nCalculating costs ........................................................................... 33\nCreating User Interfaces ....................................................................'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_9 score=0.6227516192495531 len=304
+'Any dissemination, distribution, or unauthorized use is strictly prohibited.\nTable of Contents\nINTRODUCTION ...............................................................................................1\nAbout This Book ...................................................................................'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_17 score=0.3481415988558262 len=419
+'Any dissemination, distribution, or unauthorized use is strictly prohibited.\nImplementing LLM Applications .......................................................26\nDeploying apps into containers ..................................................26\nAllocating specialized hardware ..................................................27\nIntegrating apps and data............................................................'
+
+--- New query ---
+query: what is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.9402686224067317 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.7237098185499267 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.5888931375580448 len=432
+'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
+
+--- New query ---
+query: What is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.9402686224067317 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.7237098185499267 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.5888931375580448 len=432
+'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
+
