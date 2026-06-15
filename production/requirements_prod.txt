@@ -1,0 +1,28 @@
+streamlit==1.58.0
+faiss-cpu==1.14.3
+sentence-transformers==5.5.1
+ollama==0.6.2
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.8.0
+chromadb==1.5.9
+
+# Production dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.13.4
+pydantic-settings==2.14.1
+pyyaml==6.0.3
+python-dotenv==1.2.2
+slowapi==0.1.9
+pytest==7.4.3
+pytest-asyncio==0.21.1
+python-multipart==0.0.32
+
+# Monitoring & logging
+python-json-logger==2.0.7
+
+# Development (optional)
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1

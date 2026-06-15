@@ -2,11 +2,25 @@ import chromadb
 from chromadb.config import Settings
 import ollama
 from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer("all-mpnet-base-v2")
 from sentence_transformers import CrossEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
+import torch
+
+# Detect GPU availability
+def get_device():
+    """Returns 'cuda' if GPU is available, else 'cpu'."""
+    if torch.cuda.is_available():
+        print(f"✓ GPU detected: {torch.cuda.get_device_name(0)}")
+        return "cuda"
+    else:
+        print("⚠ GPU not available, using CPU")
+        return "cpu"
+
+device = get_device()
+
+# Load models with GPU support if available
+model = SentenceTransformer("all-mpnet-base-v2", device=device)
 
 # Use the same persistent directory as ingestion so the app can read the
 # previously ingested documents across processes.
@@ -23,7 +37,7 @@ except Exception:
 
     
 try:
-    cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+    cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", device=device)
 except Exception:
     cross_encoder = None
 def retrieve(query, k=3, rerank_k=50, alpha=0.6, beta=0.3, gamma=0.1):

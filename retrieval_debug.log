@@ -78,3 +78,33 @@ num_results: 3
 [2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.5888931375580448 len=432
 'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
 
+--- New query ---
+query: what is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.9502686224067318 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.8121904965389136 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.6467411936407778 len=432
+'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
+
+--- New query ---
+query: what is LLM?
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_86 score=0.9402686224067317 len=339
+'Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_41 score=0.72370970296356 len=373
+'These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes).'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_63 score=0.5888930139986698 len=432
+'This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n » LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the \nmeaning of text.'
+
+--- New query ---
+query: what is transformer explain the architecture
+num_results: 3
+[0] id=Generative-AI-and-LLMs-for-Dummies.pdf_46 score=0.9603299080789799 len=555
+'According to a recent Forbes \narticle called “Transformers Revolutionized AI.\xa0What Will Replace \nThem?” a key breakthrough came in 2017 when the Google Brain \nteam introduced the transformer architecture, a deep learning model \nthat replaced traditional recurrent and convolutional structures \nwith a new type of architecture that’s particularly effective at \nunderstanding and contextualizing language, as well as generat-\ning text, images, audio, and computer code.\nLLMs based on the transformer architecture have enabled new \nrealms of AI capabilities.'
+[1] id=Generative-AI-and-LLMs-for-Dummies.pdf_101 score=0.8757527499727502 len=492
+'Unlike the \nprevious models, transformer models eliminate dependencies on \nother processing steps, giving them the added benefit of being \nmore parallelizable, which accelerates training.\nThe power of the transformer architecture lies in its capability to \nlearn the relevance of each word to all the other words in a state-\nment or document through self-attention mechanisms, in con-\njunction with training on large data sets.\nIntroducing key terms and concepts\nToday’s LLMs are easy to use.'
+[2] id=Generative-AI-and-LLMs-for-Dummies.pdf_100 score=0.7616693395100387 len=257
+'Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIt all springs from the advent of the transformer architecture \n(introduced in Chapter\xa01), which presented a new and simpler way \nto understand language using attention mechanisms.'
+

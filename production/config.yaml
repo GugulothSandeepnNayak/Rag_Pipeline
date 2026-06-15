@@ -1,0 +1,54 @@
+# Production Configuration for RAG Pipeline
+
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/rag_pipeline.log"
+  max_bytes: 10485760  # 10 MB
+  backup_count: 5
+
+models:
+  embedding:
+    name: "all-mpnet-base-v2"
+    device: "auto"  # auto-detect GPU if available
+  cross_encoder:
+    name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    device: "auto"
+  llm:
+    name: "llama3"
+    endpoint: "http://localhost:11434"  # Ollama endpoint
+
+retrieval:
+  rerank_k: 50  # default candidate pool size
+  alpha: 0.6    # cross-encoder weight
+  beta: 0.3     # dense-similarity weight
+  gamma: 0.1    # tfidf weight
+  k: 3          # final results to return
+  grounding_threshold: 0.78
+
+chroma:
+  persist_directory: "./chroma_db"
+  collection_name: "rag_docs"
+
+caching:
+  enabled: true
+  max_size: 1000  # number of embeddings to cache
+  ttl_seconds: 3600  # 1 hour cache expiry
+
+rate_limiting:
+  enabled: true
+  requests_per_minute: 60
+  requests_per_hour: 1000
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  timeout: 60
+
+security:
+  api_key_enabled: false  # set to true for production
+  api_key: null  # set via environment variable
+  cors_origins:
+    - "http://localhost:3000"
+    - "http://localhost:8000"
