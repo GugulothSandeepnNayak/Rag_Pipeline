@@ -58,13 +58,13 @@ def get_device() -> str:
     """Auto-detect GPU: NVIDIA (CUDA), Apple (MPS), or fallback to CPU."""
     if torch.cuda.is_available():
         gpu_name = torch.cuda.get_device_name(0)
-        logger.info(f"✓ CUDA GPU detected: {gpu_name}")
+        logger.info(f"CUDA GPU detected: {gpu_name}")
         return "cuda"
     elif torch.backends.mps.is_available():
-        logger.info("✓ Metal GPU detected (Apple Silicon)")
+        logger.info("Metal GPU detected (Apple Silicon)")
         return "mps"
     else:
-        logger.warning("⚠ No GPU available, using CPU")
+        logger.warning("No GPU available, using CPU")
         return "cpu"
 
 device_config = config.get("models", {}).get("embedding", {}).get("device", "auto")
@@ -80,7 +80,7 @@ def load_embedding_model(model_name: str, device: str):
     try:
         logger.info(f"Loading embedding model: {model_name} on {device}")
         model = SentenceTransformer(model_name, device=device)
-        logger.info(f"✓ Embedding model loaded successfully")
+        logger.info("Embedding model loaded successfully")
         return model
     except Exception as e:
         logger.error(f"Failed to load embedding model: {e}")
@@ -91,7 +91,7 @@ def load_cross_encoder(model_name: str, device: str):
     try:
         logger.info(f"Loading cross-encoder: {model_name} on {device}")
         cross_encoder = CrossEncoder(model_name, device=device)
-        logger.info(f"✓ Cross-encoder loaded successfully")
+        logger.info("Cross-encoder loaded successfully")
         return cross_encoder
     except Exception as e:
         logger.warning(f"Failed to load cross-encoder: {e}. Reranking disabled.")
@@ -121,7 +121,7 @@ def init_chroma_collection(config: dict):
         
         try:
             collection = client.get_collection(name=collection_name)
-            logger.info(f"✓ Using existing collection: {collection_name}")
+            logger.info(f"Using existing collection: {collection_name}")
         except Exception:
             logger.info(f"Creating new collection: {collection_name}")
             collection = client.get_or_create_collection(name=collection_name)

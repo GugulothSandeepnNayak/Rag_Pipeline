@@ -11,10 +11,10 @@ import torch
 def get_device():
     """Returns 'cuda' if GPU is available, else 'cpu'."""
     if torch.cuda.is_available():
-        print(f"✓ GPU detected: {torch.cuda.get_device_name(0)}")
+        print(f"GPU detected: {torch.cuda.get_device_name(0)}")
         return "cuda"
     else:
-        print("⚠ GPU not available, using CPU")
+        print("GPU not available, using CPU")
         return "cpu"
 
 device = get_device()

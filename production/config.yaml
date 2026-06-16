@@ -27,7 +27,7 @@ retrieval:
   grounding_threshold: 0.78
 
 chroma:
-  persist_directory: "./chroma_db"
+  persist_directory: "../local/chroma_db"
   collection_name: "rag_docs"
 
 caching:
